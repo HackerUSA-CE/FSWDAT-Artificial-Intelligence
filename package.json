@@ -1,0 +1,30 @@
+{
+  "name": "FSWDAT_Artificial_Intelligence",
+  "version": "1.0.0",
+  "description": "Artificial Intelligence for Full Stack Developers - 12 Hours",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.5.0"
+  },
+  "scripts": {
+    "import": "cat --import=curriculum",
+    "start": "cat curriculum",
+    "dev": "cat-watch curriculum"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackerUSA-CE/FSWDAT-Artificial-Intelligence.git"
+  },
+  "author": "Cody Nicholson",
+  "license": "ISC",
+  "dependencies": {
+    "cat": "git+https://github.com/HackerUSA-CE/cat.git"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/HackerUSA-CE/FSWDAT-Artificial-Intelligence.git/issues"
+  },
+  "homepage": "https://github.com/HackerUSA-CE/FSWDAT-Artificial-Intelligence.git#readme"
+}
