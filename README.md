@@ -7,6 +7,8 @@ References:
 - https://github.com/aimacode/aima-exercises
 - http://aimacode.github.io/aima-javascript/
 
+# Unit 1 - Diving Into AI
+
 ## Lesson 1 - What Is Artificial Intelligence?
 
 Artificial intelligence in computer science strives to make an "intelligent" machine that is a flexible rational agent that perceives its environment and takes actions that maximize its chance of success at some goal.
@@ -16,14 +18,53 @@ Artificial intelligence in computer science strives to make an "intelligent" mac
 - Describe some of the largest problems being solved in the real-world using AI across many different branches of AI
 - Set expectation for what will be covered in the 12 hours and what will not, especially on the mathematical side. Explain that the purpose is to give them enough knowledge to know what they're talking about in the field of AI. Explain that to become entry-level for an AI-heavy role at a prestigious company, an average person will need at least six months of 10 hour days researching and building personal projects to be competent - and this 12 hour session will serve as a great intro into that six month hustle for those who are interested.
 
-## Lesson 2 - Game Theory
+## Lesson 2 - Game Theory - https://study.com/academy/lesson/game-theory-in-artificial-intelligence.html
 
 - Define an AI agent and how an agent is created inside an environment to solve a specific problem. A chess AI should not be told to drive a car, and a self-driving car AI should not be told to play chess!
-- Game Theory is essential to enable some of the key capabilities required in multi-agent environments in which different AI programs need to interact or compete in order to accomplish a goal
+- Game theory is the study of mathematical models of strategic interaction among rational decision-makers.
+- Zero-sum is a situation in game theory in which one person's gain is equivalent to another's loss, so the net change in wealth or benefit is zero. A zero-sum game may have as few as two players or as many as millions of participants.
+- Game Theory is essential to enable some of the key capabilities required in multi-agent environments in which different AI programs need to interact or compete in order to accomplish a goal.
+- A heuristic technique, or a heuristic is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation.
 - Explain how "TicTacToe" has 9! game states that we can use to construct a tree structure to denote every possible game state and every win/loss condition. 
 - Dive into a bit of the math at a high level explaining concepts and not diving into proving everything mathematically and discussing every detail (But providing resources for students who want that to go and read for themselves) (Explain the WHAT and WHY of the math without talking too much about the HOW)
-- Activity: The Legendary Undefeatable TicTacToe
 
+## Lesson 3 - Activity: The Legendary Undefeatable TicTacToe
+
+- Everyone clones the starter code and starts working on the TODO blocks
+
+# Unit 2 - Machine Learning
+
+## Lesson 1 - Linear Regression
+
+## Lesson 2 - Multi-Linear Regression
+
+## Lesson 3 - Decision Trees
+
+## Lesson 4 - Neural Networks & Code-Along Activity
+
+## Lesson 5 - Naive Bayes & Natural Language Processing
+
+- Naive Bayes is good because: (1) Easy to implement, (2) Very efficient to run this algorithm on large datasets, it scales, (3) It is great for text categorization where it uses every word of an article as a feature (detect span, etc.)
+- Naive Bayes can't handle phrases that are composed of multiple words (If you search "Chicago Bulls" it will give you pictures of Chicago and pictures of Bulls, not basketball)
+
+## Lesson 6 - Support Vector Machines
+
+## Lesson 7 - KNN Activity (Supervised)
+
+- Compare to SVM https://www.quora.com/What-is-better-k-nearest-neighbors-algorithm-k-NN-or-Support-Vector-Machine-SVM-classifier-Which-algorithm-is-mostly-used-practically-Which-algorithm-guarantees-reliable-detection-in-unpredictable-situations
+
+## Lesson 8 - Convolutional Neural Networks
+
+## Lesson 9 - Generative Adversarial Neural Networks
+
+## Lesson 10 - K-Means Clustering (Unsupervised)
+
+- Unsupervised clustering is the problem of discerning multiple categories in a collection of UNSUPERVISED CLUSTERING objects. The problem is unsupervised because the category labels are not given. For example, suppose we record the spectra of a hundred thousand stars; are there different types of stars revealed by the spectra, and, if so, how many types and what are their characteristics? We are all familiar with terms such as “red giant” and “white dwarf,” but the stars do not carry these labels on their hats—astronomers had to perform unsupervised clustering to identify these categories. Other examples include the identification of species, genera, orders, and so on in the Linnæan taxonomy and the creation of natural kinds for ordinary objects.
+
+
+_________________
+
+Naive Bais - https://machinelearningmastery.com/naive-bayes-for-machine-learning/
 _______________
 
 There are two types of Supervised Learning: Classification and Regression
