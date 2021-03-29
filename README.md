@@ -32,13 +32,17 @@ Artificial intelligence in computer science strives to make an "intelligent" mac
 
 - Everyone clones the starter code and starts working on the TODO blocks
 
-# Unit 2 - Machine Learning
+# Unit 2 - Machine Learning: Supervised Learning
+
+## Lesson 1 - Decision Trees
+
+## Lesson 2 - Hypothesis Testing
+
+# Unit 3 - Machine Learning: Neural Nets
 
 ## Lesson 1 - Linear Regression
 
 ## Lesson 2 - Multi-Linear Regression
-
-## Lesson 3 - Decision Trees
 
 ## Lesson 4 - Neural Networks & Code-Along Activity
 
